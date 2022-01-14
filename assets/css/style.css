@@ -1,4 +1,53 @@
+/* font import */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap");
+/* utility or base line */
 * {
-  margin: 0px;
-  padding: 0px;
+  /* margin: 0px;
+  padding: 0px; */
 }
+body {
+  width: 80%;
+  /* border: 1px solid violet; */
+  margin: auto;
+  font-family: "Poppins", sans-serif;
+}
+h1 {
+  font-size: 50px;
+}
+
+/* top container design start */
+.top-container {
+  display: flex;
+  align-items: center;
+}
+.left-part-article {
+  width: 100%;
+}
+h1 {
+  line-height: 70px;
+}
+.btn-prebook-now {
+  display: inline-block;
+  background-color: #e02c6d;
+  padding: 5px 20px;
+  border-radius: 25px;
+  color: white;
+}
+.btn-prebook-now a {
+  text-decoration: none;
+  color: white;
+  text-align: center;
+}
+.right-part-image {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background-image: url(../img/Circle\ design.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.right-part-image img {
+  width: 440px;
+  height: 414px;
+}
+/* top container design end */
