@@ -1,18 +1,17 @@
 /* font import */
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap");
 /* utility or base line */
-* {
-  /* margin: 0px;
-  padding: 0px; */
-}
 body {
-  width: 80%;
-  /* border: 1px solid violet; */
-  margin: auto;
   font-family: "Poppins", sans-serif;
+  margin: 0px;
+  padding: 0px;
 }
 h1 {
   font-size: 50px;
+}
+.width {
+  width: 80%;
+  margin: auto;
 }
 
 /* top container design start */
@@ -55,24 +54,26 @@ h1 {
 
 /* middle container design start */
 .middle-container {
-  margin-top: 200px;
+  margin-top: 150px;
 }
 .middle-container > h3 {
   text-align: center;
   font-size: 28px;
   margin-bottom: 50px;
 }
-
 .items {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
 }
-.items h2 {
-  margin-bottom: 0px;
-}
+
 .items img {
   margin-top: 10px;
 }
+
+.items h2 {
+  margin-bottom: 0px;
+}
+
 .items p {
   margin-top: 0px;
 }
@@ -93,12 +94,6 @@ h1 {
   align-items: center;
   width: 16px;
 }
-.rating h5 {
-  margin-left: 10px;
-  color: #5e6366;
-  margin-top: 0px;
-  margin-bottom: 0px;
-}
 .rating .filled,
 .half-empty {
   color: orange;
@@ -108,10 +103,40 @@ h1 {
 .rating .half-empty {
   color: orange;
 }
+.rating h5 {
+  margin-left: 10px;
+  color: #5e6366;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
 .rating p {
   font-size: 14px;
   font-weight: 700;
   color: gray;
   margin: 0px;
 }
+.btn_see_more {
+  display: flex;
+  justify-content: end;
+  background-color: #fff;
+  color: #e02c6d;
+  margin-right: 95px;
+}
 /* middle container design end */
+/* =======================================
+        Footer part design start
+========================================== */
+.container {
+  background-color: #0a0826;
+  text-align: center;
+  color: #ffffff;
+  padding: 20px 0px;
+}
+
+.socal-logo {
+  padding: 5px 10px;
+}
+
+/* =======================================
+    Footer part design end
+========================================== */
