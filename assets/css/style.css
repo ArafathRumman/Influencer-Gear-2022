@@ -200,7 +200,8 @@ h1 {
     Footer part design end
 ========================================== */
 /* Media  quary  start */
-@media only screen and (max-width: 600px) {
+/* Mobile device start */
+@media only screen and (max-width: 688px) {
   header h4 {
     text-align: center;
   }
@@ -212,7 +213,6 @@ h1 {
     text-align: center;
   }
   .right-part-image {
-    
     background-size: 257px 257px;
   }
   .right-part-image img {
@@ -221,17 +221,75 @@ h1 {
     margin: 40px 0px;
   }
 
-  .items, .Latest-Products {
+  .Latest-Product-container,
+  .Popular-Collection-container {
+    /* margin: 150px 0px 0px 30px; */
+    margin: auto;
+  }
+  .Latest-Product-container {
+    margin-bottom: 150px;
+  }
+
+  .items,
+  .Latest-Products {
     display: flex;
     flex-direction: column;
-
   }
-  .items.item img{
+  .items.item img {
     margin: auto;
-
   }
-  .item, .product{
+  .item,
+  .product {
     padding-left: 8px;
   }
-  
+}
+/* Mobile device End */
+/* tablet device start  */
+@media only screen and (min-width: 688px) and (max-width: 992px) {
+  body {
+    margin: 0px;
+    padding: 0px;
+  }
+  header h4 {
+    text-align: center;
+  }
+  .top-container {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .left-part-article {
+    text-align: center;
+  }
+  .right-part-image {
+    background-size: 257px 257px;
+  }
+  .right-part-image img {
+    width: 202px;
+    height: 190px;
+    margin: 40px 0px;
+  }
+  .Latest-Product-container,
+  .Popular-Collection-container {
+    /* margin: 150px 0px 0px 30px; */
+    margin: auto;
+  }
+  .Latest-Product-container {
+    margin-bottom: 150px;
+  }
 
+  .items,
+  .Latest-Products {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: space-between;
+  }
+  .items.item img {
+    margin: auto;
+  }
+  .item,
+  .product {
+    padding-left: 8px;
+  }
+}
+
+/* tablet device End  */
