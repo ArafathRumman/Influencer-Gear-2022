@@ -66,7 +66,7 @@ h1 {
 
 /* middle container design start */
 .Popular-Collection-container {
-  margin-top: 150px;
+  margin-top: 100px;
 }
 .Popular-Collection-container > h3 {
   text-align: center;
@@ -137,8 +137,8 @@ h1 {
 /* middle container design end */
 /* latest product design start */
 .Latest-Product-container {
-  margin-bottom: 150px;
-  margin-top: 150px;
+  margin-bottom: 100px;
+  margin-top: 100px;
 }
 .Latest-Product-container > h1 {
   font-size: 40px;
