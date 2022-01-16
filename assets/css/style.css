@@ -40,6 +40,11 @@ h1 {
   color: white;
   text-align: center;
 }
+
+.fa-arrow-right {
+  margin-left: 5px;
+}
+
 .right-part-image {
   width: 100%;
   display: flex;
