@@ -145,6 +145,7 @@ h1 {
 }
 
 .Latest-Products img {
+  margin: auto;
   margin-top: 10px;
 }
 
@@ -198,3 +199,39 @@ h1 {
 /* =======================================
     Footer part design end
 ========================================== */
+/* Media  quary  start */
+@media only screen and (max-width: 600px) {
+  header h4 {
+    text-align: center;
+  }
+  .top-container {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .left-part-article {
+    text-align: center;
+  }
+  .right-part-image {
+    
+    background-size: 257px 257px;
+  }
+  .right-part-image img {
+    width: 202px;
+    height: 190px;
+    margin: 40px 0px;
+  }
+
+  .items, .Latest-Products {
+    display: flex;
+    flex-direction: column;
+
+  }
+  .items.item img{
+    margin: auto;
+
+  }
+  .item, .product{
+    padding-left: 8px;
+  }
+  
+
